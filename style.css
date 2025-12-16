@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(to bottom, #80d0c7, #13547a); /* vibrant, but easy on the eyes */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 2rem;
+}
+
+canvas {
+    background-color: #70c5ce; /* sky-blue */
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #333;
+    border-radius: 8px;
+}
+
+#score {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#gameOver {
+    font-size: 1.5rem;
+    color: #ff4444;
+    font-weight: bold;
+    margin-top: 15px;
+}
