@@ -12,7 +12,7 @@ const bird = {
     height: 30,
     color: '#FFD700', // cool gold
     gravity: 0.6,
-    lift: -12,
+    lift: -7,
     velocity: 0
 };
 
