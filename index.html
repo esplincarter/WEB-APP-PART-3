@@ -1,13 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flappy Bro: Carter Edition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
 <h1>Flappy Bro: Carter Edition</h1>
 <p>Press SPACE or CLICK to make the bird fly!</p>
 
-<button id="startBtn">Start Game</button>
-<button id="highScoreBtn">Show High Score</button>
+<div class="buttons">
+    <button id="startBtn">Start Game</button>
+    <button id="highScoreBtn">Show High Score</button>
+</div>
 
 <canvas id="gameCanvas" width="480" height="640"></canvas>
 
-<p id="score">Score: 0</p>
+<div id="scoreContainer">
+    <p id="score">Score: 0</p>
+    <p id="highScoreDisplay" style="display:none;"></p>
+</div>
+
 <p id="gameOver" style="display:none;">Game Over! Press Start to play again.</p>
-<p id="highScoreDisplay" style="display:none;"></p>
 
 <script src="script.js"></script>
+</body>
+</html>
