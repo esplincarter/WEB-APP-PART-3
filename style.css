@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom, #80d0c7, #13547a); /* vibrant, but easy on the eyes */
+    background: linear-gradient(to bottom, #80d0c7, #13547a);
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
     text-align: center;
@@ -12,15 +12,29 @@ h1 {
     font-size: 2rem;
 }
 
-canvas {
-    background-color: #70c5ce; /* sky-blue */
+.buttons {
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#gameCanvas {
+    background-color: #70c5ce;
     display: block;
     margin: 20px auto;
     border: 3px solid #333;
     border-radius: 8px;
 }
 
-#score {
+#scoreContainer {
     font-size: 1.5rem;
     font-weight: bold;
 }
